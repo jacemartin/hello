@@ -1,13 +1,13 @@
 -------------------------------------------------------------------------------
 Test set: com.java.ex.hello.LoginTest
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 42.721 sec <<< FAILURE!
-testABegin(com.java.ex.hello.LoginTest)  Time elapsed: 42.684 sec  <<< ERROR!
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 42.685 sec <<< FAILURE!
+testABegin(com.java.ex.hello.LoginTest)  Time elapsed: 42.65 sec  <<< ERROR!
 org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.04 seconds
+Command duration or timeout: 30.03 seconds
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
 System info: host: 'Jaces-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
-Session ID: 50686b8f-8697-9643-b9ec-58306fa493f3
+Session ID: bd1dbb53-55b6-d84c-8d38-ee1c33d707d0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -55,8 +55,8 @@ Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not curren
 Build info: version: '2.43.1', revision: '5163bceef1bc36d43f3dc0b83c88998168a363a0', time: '2014-09-10 09:43:55'
 System info: host: 'Jaces-MacBook-Pro.local', ip: '192.168.0.12', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.9.5', java.version: '1.7.0_51'
 Driver info: driver.version: unknown
-	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8936:5)
-	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11595:1)
-	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:11)
-	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+	at <anonymous class>.fxdriver.preconditions.visible(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8936:5)
+	at <anonymous class>.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11595:1)
+	at <anonymous class>.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:11)
+	at <anonymous class>.fxdriver.Timer.prototype.setTimeout/<.notify(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
 

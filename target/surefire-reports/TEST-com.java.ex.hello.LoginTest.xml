@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="42.684" errors="1" skipped="0" tests="1" name="com.java.ex.hello.LoginTest">
+<testsuite failures="0" time="42.65" errors="1" skipped="0" tests="1" name="com.java.ex.hello.LoginTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="MyMaven"/>
@@ -25,7 +25,7 @@
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="SECURITYSESSIONID" value="186cb"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#68"/>
+    <property name="BUILD_DISPLAY_NAME" value="#70"/>
     <property name="TMPDIR" value="/var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib"/>
     <property name="MAIL_SERVER" value="mail.modirum.com"/>
@@ -36,7 +36,7 @@
     <property name="NODE_NAME" value="master"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="2014-10-15_08-50-12"/>
+    <property name="BUILD_ID" value="2014-10-15_09-16-29"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -69,7 +69,7 @@
     <property name="HOME" value="/Users/Shared/Jenkins"/>
     <property name="POM_GROUPID" value="com.java.ex"/>
     <property name="user.home" value="/Users/Shared/Jenkins"/>
-    <property name="BUILD_TAG" value="jenkins-MyMaven-68"/>
+    <property name="BUILD_TAG" value="jenkins-MyMaven-70"/>
     <property name="JENKINS_SERVER_COOKIE" value="a9e1b627419209c1"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
@@ -82,7 +82,7 @@
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/usr/local/apache-maven/apache-maven-3.2.3"/>
     <property name="java.class.path" value="/Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/usr/local/apache-maven/apache-maven-3.2.3/boot/plexus-classworlds-2.5.1.jar:/usr/local/apache-maven/apache-maven-3.2.3/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/apache-maven/apache-maven-3.2.3/ /Users/Shared/Jenkins/Home/war/WEB-INF/lib/remoting-2.46.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 57711"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /usr/local/apache-maven/apache-maven-3.2.3/ /Users/Shared/Jenkins/Home/war/WEB-INF/lib/remoting-2.46.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 58607"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="PATH+JDK" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/bin"/>
     <property name="java.vm.specification.version" value="1.7"/>
@@ -93,9 +93,9 @@
     <property name="java.io.tmpdir" value="/var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/"/>
     <property name="HUDSON_HOME" value="/Users/Shared/Jenkins/Home"/>
     <property name="PATH+MAVEN" value="/usr/local/apache-maven/apache-maven-3.2.3//bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/MyMaven/68/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MyMaven/70/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
-    <property name="JENKINS_BUILD_NUMBER" value="MyMaven__68"/>
+    <property name="JENKINS_BUILD_NUMBER" value="MyMaven__70"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="os.arch" value="x86_64"/>
     <property name="SELENIUM_PORT" value="4445"/>
@@ -111,7 +111,7 @@
     <property name="JAVA_ARCH" value="x86_64"/>
     <property name="MAVEN_HOME" value="/usr/local/apache-maven/apache-maven-3.2.3/"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="68"/>
+    <property name="BUILD_NUMBER" value="70"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
     <property name="file.encoding" value="US-ASCII"/>
     <property name="maven3.interceptor" value="/Users/Shared/Jenkins/Home/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
@@ -121,18 +121,18 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="USER" value="jenkins"/>
   </properties>
-  <testcase time="42.684" classname="com.java.ex.hello.LoginTest" name="testABegin">
+  <testcase time="42.65" classname="com.java.ex.hello.LoginTest" name="testABegin">
     <error message="Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.04 seconds
+Command duration or timeout: 30.03 seconds
 Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
 System info: host: &apos;Jaces-MacBook-Pro.local&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: 50686b8f-8697-9643-b9ec-58306fa493f3
+Session ID: bd1dbb53-55b6-d84c-8d38-ee1c33d707d0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]" type="org.openqa.selenium.ElementNotVisibleException">org.openqa.selenium.ElementNotVisibleException: Element is not currently visible and so may not be interacted with
-Command duration or timeout: 30.04 seconds
+Command duration or timeout: 30.03 seconds
 Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
 System info: host: &apos;Jaces-MacBook-Pro.local&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
-Session ID: 50686b8f-8697-9643-b9ec-58306fa493f3
+Session ID: bd1dbb53-55b6-d84c-8d38-ee1c33d707d0
 Driver info: org.openqa.selenium.firefox.FirefoxDriver
 Capabilities [{platform=MAC, databaseEnabled=true, cssSelectorsEnabled=true, javascriptEnabled=true, acceptSslCerts=true, handlesAlerts=true, browserName=firefox, webStorageEnabled=true, nativeEvents=false, rotatable=false, locationContextEnabled=true, applicationCacheEnabled=true, takesScreenshot=true, version=32.0.3}]
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
@@ -180,10 +180,10 @@ Caused by: org.openqa.selenium.ElementNotVisibleException: Element is not curren
 Build info: version: &apos;2.43.1&apos;, revision: &apos;5163bceef1bc36d43f3dc0b83c88998168a363a0&apos;, time: &apos;2014-09-10 09:43:55&apos;
 System info: host: &apos;Jaces-MacBook-Pro.local&apos;, ip: &apos;192.168.0.12&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;x86_64&apos;, os.version: &apos;10.9.5&apos;, java.version: &apos;1.7.0_51&apos;
 Driver info: driver.version: unknown
-	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8936:5)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11595:1)
-	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:11)
-	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous9164892522253187192webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
+	at &lt;anonymous class&gt;.fxdriver.preconditions.visible(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:8936:5)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.checkPreconditions_(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11595:1)
+	at &lt;anonymous class&gt;.DelayedCommand.prototype.executeInternal_/h(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:11612:11)
+	at &lt;anonymous class&gt;.fxdriver.Timer.prototype.setTimeout/&lt;.notify(file:///var/folders/kq/76vdr5j16qx1ycyqrwkf205000007h/T/anonymous547557074171706435webdriver-profile/extensions/fxdriver@googlecode.com/components/command-processor.js:548:5)
 </error>
   </testcase>
 </testsuite>
