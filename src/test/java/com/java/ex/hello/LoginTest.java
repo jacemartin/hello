@@ -28,23 +28,22 @@ public class LoginTest {
   @Test
   public void testABegin() throws Exception {
     driver.get(baseUrl + "/mdpayacs-admin/login/login.htm");
-    Thread.sleep(10000);
     driver.findElement(By.id("j_username")).clear();
-//    driver.findElement(By.id("j_username")).sendKeys(adminUsername);
-//    driver.findElement(By.id("j_password")).clear();
-//    driver.findElement(By.id("j_password")).sendKeys(adminPass);
-//    driver.findElement(By.id("button")).click();
-//    driver.findElement(By.linkText("Authentication Admin")).click();
-//    driver.findElement(By.linkText(issuerName)).click();
-//    driver.findElement(By.linkText("testbrasilia")).click();
-//    driver.findElement(By.linkText("jacerule")).click();
-//    new Select(driver.findElement(By.id("auth.id"))).selectByVisibleText("SMS Only");
-//    driver.findElement(By.xpath("//input[@value='Save']")).click();
-//    driver.findElement(By.linkText("Issuer: Banco Brazil")).click();
-//    driver.findElement(By.linkText("Test Card Range")).click();
-//    driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
-//    new Select(driver.findElement(By.id("authenticationMethod.id"))).selectByVisibleText("SMS Only");
-//    driver.findElement(By.xpath("//input[@value='Update']")).click();
+    driver.findElement(By.id("j_username")).sendKeys(adminUsername);
+    driver.findElement(By.id("j_password")).clear();
+    driver.findElement(By.id("j_password")).sendKeys(adminPass);
+    driver.findElement(By.id("button")).click();
+    driver.findElement(By.linkText("Authentication Admin")).click();
+    driver.findElement(By.linkText(issuerName)).click();
+    driver.findElement(By.linkText("testbrasilia")).click();
+    driver.findElement(By.linkText("jacerule")).click();
+    new Select(driver.findElement(By.id("auth.id"))).selectByVisibleText("SMS Only");
+    driver.findElement(By.xpath("//input[@value='Save']")).click();
+    driver.findElement(By.linkText("Issuer: Banco Brazil")).click();
+    driver.findElement(By.linkText("Test Card Range")).click();
+    driver.findElement(By.cssSelector("input[type=\"submit\"]")).click();
+    new Select(driver.findElement(By.id("authenticationMethod.id"))).selectByVisibleText("SMS Only");
+    driver.findElement(By.xpath("//input[@value='Update']")).click();
   }
 
   @After
