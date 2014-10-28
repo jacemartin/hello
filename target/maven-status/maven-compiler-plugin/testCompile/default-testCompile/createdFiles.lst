@@ -1,1 +1,4 @@
-com/java/ex/hello/LoginTest.class
+com/java/ex/hello/AllTests.class
+com/java/ex/hello/WebDriverDemoShootoutTest.class
+com/java/ex/hello/WebDriverTest.class
+com/java/ex/hello/WebDriverWithHelperTest.class
