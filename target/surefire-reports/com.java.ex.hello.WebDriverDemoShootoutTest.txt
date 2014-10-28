@@ -1,8 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: com.java.ex.hello.WebDriverDemoShootoutTest
 -------------------------------------------------------------------------------
-Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 167.822 sec <<< FAILURE!
-testRegisterFailsWithBadEmail(com.java.ex.hello.WebDriverDemoShootoutTest)  Time elapsed: 24.478 sec  <<< FAILURE!
+Tests run: 8, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 197.577 sec <<< FAILURE!
+testRegisterFailsWithBadEmail(com.java.ex.hello.WebDriverDemoShootoutTest)  Time elapsed: 27.344 sec  <<< FAILURE!
 org.junit.ComparisonFailure: Message not found expected:<...ortion after the @: [bob])> but was:<...ortion after the @: [example])>
 	at org.junit.Assert.assertEquals(Assert.java:115)
 	at com.java.ex.hello.WebDriverDemoShootoutTest.testRegisterFailsWithBadEmail(WebDriverDemoShootoutTest.java:108)

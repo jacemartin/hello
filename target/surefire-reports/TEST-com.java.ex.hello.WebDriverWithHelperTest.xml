@@ -1,19 +1,20 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="13.599" errors="0" skipped="0" tests="1" name="com.java.ex.hello.WebDriverWithHelperTest">
+<testsuite failures="1" time="13.915" errors="0" skipped="0" tests="1" name="com.java.ex.hello.WebDriverWithHelperTest">
   <properties>
     <property name="java.vendor" value="Oracle Corporation"/>
     <property name="JOB_NAME" value="MyMaven"/>
+    <property name="DESTINATION" value="/var/folders/ky/p02qm80x1r387lz7sfv69xmm0000gn/T/iTerm 1.0.0.20140629 Update"/>
     <property name="PWD" value="/Applications/Jenkins"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="JENKINS_HOME" value="/Users/jacemartin/.jenkins"/>
-    <property name="PATH" value="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"/>
+    <property name="PATH" value="/usr/local/apache-maven/apache-maven-3.2.3/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/git/bin"/>
     <property name="HUDSON_SERVER_COOKIE" value="757c615b68f06beb"/>
     <property name="POM_ARTIFACTID" value="hello"/>
     <property name="os.name" value="Mac OS X"/>
     <property name="TERM_PROGRAM" value="iTerm.app"/>
     <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/classes"/>
-    <property name="EXECUTOR_NUMBER" value="1"/>
+    <property name="EXECUTOR_NUMBER" value="0"/>
     <property name="COLORFGBG" value="7;0"/>
     <property name="user.country.format" value="EE"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
@@ -23,10 +24,10 @@
     <property name="user.name" value="jacemartin"/>
     <property name="guice.disable.misplaced.annotation.check" value="true"/>
     <property name="user.language" value="en"/>
-    <property name="BUILD_DISPLAY_NAME" value="#9"/>
+    <property name="M2" value="/usr/local/apache-maven/apache-maven-3.2.3/bin"/>
+    <property name="BUILD_DISPLAY_NAME" value="#10"/>
     <property name="TMPDIR" value="/var/folders/ky/p02qm80x1r387lz7sfv69xmm0000gn/T/"/>
     <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib"/>
-    <property name="JAVA_MAIN_CLASS_22152" value="Main"/>
     <property name="java.version" value="1.7.0_51"/>
     <property name="XPC_FLAGS" value="0x0"/>
     <property name="user.timezone" value="Europe/Tallinn"/>
@@ -35,7 +36,7 @@
     <property name="TERM" value="xterm"/>
     <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16"/>
     <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/endorsed"/>
-    <property name="BUILD_ID" value="2014-10-21_10-07-23"/>
+    <property name="BUILD_ID" value="2014-10-28_09-39-05"/>
     <property name="sun.cpu.isalist" value=""/>
     <property name="sun.jnu.encoding" value="UTF-8"/>
     <property name="file.encoding.pkg" value="sun.io"/>
@@ -55,6 +56,7 @@
     <property name="SHLVL" value="1"/>
     <property name="_" value="/usr/bin/java"/>
     <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob"/>
+    <property name="JAVA_HOME" value="/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/"/>
     <property name="sun.io.unicode.encoding" value="UnicodeBig"/>
     <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit"/>
     <property name="LOGNAME" value="jacemartin"/>
@@ -64,21 +66,21 @@
     <property name="HOME" value="/Users/jacemartin"/>
     <property name="POM_GROUPID" value="com.java.ex"/>
     <property name="user.home" value="/Users/jacemartin"/>
-    <property name="BUILD_TAG" value="jenkins-MyMaven-9"/>
+    <property name="BUILD_TAG" value="jenkins-MyMaven-10"/>
     <property name="JENKINS_SERVER_COOKIE" value="757c615b68f06beb"/>
     <property name="HUDSON_URL" value="http://localhost:8080/"/>
     <property name="XPC_SERVICE_NAME" value="0"/>
     <property name="java.specification.vendor" value="Oracle Corporation"/>
     <property name="CLASSPATH" value=""/>
-    <property name="java.library.path" value="/Users/jacemartin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
     <property name="java.vendor.url" value="http://java.oracle.com/"/>
-    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.mFxFoXMg8S/Render"/>
+    <property name="java.library.path" value="/Users/jacemartin/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:."/>
+    <property name="Apple_PubSub_Socket_Render" value="/private/tmp/com.apple.launchd.UiLKL5ZFMg/Render"/>
     <property name="gopherProxySet" value="false"/>
     <property name="java.vm.vendor" value="Oracle Corporation"/>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="maven.home" value="/Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.class.path" value="/Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-agent-1.5.jar:/Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/boot/plexus-classworlds-2.5.1.jar:/Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/conf/logging"/>
-    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/jacemartin/.jenkins/war/WEB-INF/lib/remoting-2.46.jar /Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 49286"/>
+    <property name="sun.java.command" value="jenkins.maven3.agent.Maven31Main /Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven /Users/jacemartin/.jenkins/war/WEB-INF/lib/remoting-2.46.jar /Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar /Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven3-interceptor-commons-1.5.jar 58185"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
     <property name="java.vm.specification.version" value="1.7"/>
     <property name="sun.os.patch.level" value="unknown"/>
@@ -87,27 +89,26 @@
     <property name="java.io.tmpdir" value="/var/folders/ky/p02qm80x1r387lz7sfv69xmm0000gn/T/"/>
     <property name="HUDSON_HOME" value="/Users/jacemartin/.jenkins"/>
     <property name="PATH+MAVEN" value="/Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven/bin"/>
-    <property name="BUILD_URL" value="http://localhost:8080/job/MyMaven/9/"/>
+    <property name="BUILD_URL" value="http://localhost:8080/job/MyMaven/10/"/>
     <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="JAVA_MAIN_CLASS_18142" value="Main"/>
     <property name="OLDPWD" value="/Users/jacemartin"/>
     <property name="ITERM_PROFILE" value="Default"/>
-    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.BFxr6UOWIC/Listeners"/>
+    <property name="SSH_AUTH_SOCK" value="/private/tmp/com.apple.launchd.jEaBC0kvDu/Listeners"/>
     <property name="LC_CTYPE" value="UTF-8"/>
     <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment"/>
     <property name="os.arch" value="x86_64"/>
-    <property name="com.apple.java.jvmTask" value="CommandLine"/>
     <property name="java.ext.dirs" value="/Users/jacemartin/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.7.0_51.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java"/>
     <property name="__CF_USER_TEXT_ENCODING" value="0x1F5:0x0:0x0"/>
     <property name="user.dir" value="/Users/jacemartin/Desktop/hello"/>
     <property name="JOB_URL" value="http://localhost:8080/job/MyMaven/"/>
     <property name="line.separator" value="
 "/>
-    <property name="JAVA_ARCH" value="x86_64"/>
     <property name="MAVEN_HOME" value="/Users/jacemartin/.jenkins/tools/hudson.tasks.Maven_MavenInstallation/Maven"/>
     <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
-    <property name="BUILD_NUMBER" value="9"/>
+    <property name="BUILD_NUMBER" value="10"/>
     <property name="JENKINS_URL" value="http://localhost:8080/"/>
-    <property name="ITERM_SESSION_ID" value="w1t0p0"/>
+    <property name="ITERM_SESSION_ID" value="w0t0p0"/>
     <property name="file.encoding" value="UTF-8"/>
     <property name="maven3.interceptor" value="/Users/jacemartin/.jenkins/plugins/maven-plugin/WEB-INF/lib/maven31-interceptor-1.5.jar"/>
     <property name="WORKSPACE" value="/Users/jacemartin/.jenkins/jobs/MyMaven/workspace"/>
@@ -115,5 +116,48 @@
     <property name="java.specification.version" value="1.7"/>
     <property name="USER" value="jacemartin"/>
   </properties>
-  <testcase time="13.599" classname="com.java.ex.hello.WebDriverWithHelperTest" name="webDriverWithHelper"/>
+  <testcase time="13.915" classname="com.java.ex.hello.WebDriverWithHelperTest" name="webDriverWithHelper">
+    <failure message="expected:&lt;Amazon.com[: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]&gt; but was:&lt;Amazon.com[]&gt;" type="org.junit.ComparisonFailure">org.junit.ComparisonFailure: expected:&lt;Amazon.com[: Online Shopping for Electronics, Apparel, Computers, Books, DVDs &amp; more]&gt; but was:&lt;Amazon.com[]&gt;
+	at org.junit.Assert.assertEquals(Assert.java:115)
+	at org.junit.Assert.assertEquals(Assert.java:144)
+	at com.java.ex.hello.WebDriverWithHelperTest.webDriverWithHelper(WebDriverWithHelperTest.java:58)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:47)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:44)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)
+	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.TestWatcher$1.evaluate(TestWatcher.java:55)
+	at org.junit.rules.RunRules.evaluate(RunRules.java:20)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:271)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:70)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:50)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:238)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:63)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:236)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:53)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:229)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:309)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:252)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:141)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:112)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:189)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:165)
+	at org.apache.maven.surefire.booter.ProviderFactory.invokeProvider(ProviderFactory.java:85)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:115)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:75)
+</failure>
+    <system-out>SauceOnDemandSessionID=2bb613b04d394c4aa2b85eae62d0d4c5 job-name=com.java.ex.hello.WebDriverWithHelperTest.webDriverWithHelper
+Job link: https://saucelabs.com/jobs/2bb613b04d394c4aa2b85eae62d0d4c5?auth=f93f1e4f06b200ce507f299f88abc78b
+</system-out>
+  </testcase>
 </testsuite>
