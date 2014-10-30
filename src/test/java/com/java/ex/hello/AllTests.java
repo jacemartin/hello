@@ -5,7 +5,8 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 //another
 @RunWith(Suite.class)
-@SuiteClasses({ //*WebDriverDemoShootoutTest.class, WebDriverTest.class,
+@SuiteClasses({ //*WebDriverDemoShootoutTest.class, 
+		WebDriverTest.class,
 		WebDriverWithHelperTest.class })
 public class AllTests {
 
